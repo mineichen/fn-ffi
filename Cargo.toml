@@ -1,0 +1,13 @@
+[package]
+name = "fn_ffi"
+version = "0.0.1"
+edition = "2021"
+authors = ["Markus Ineichen <kusi.ineichen@gmail.com>"]
+description = "FFI-Safe lambdas"
+license = "MIT OR Apache-2.0"
+keywords = ["ffi", "closure", "lambda", "stable"]
+categories = ["development-tools::ffi"]
+readme = "README.md"
+
+[dependencies]
+abi_stable = { version = "0.10.3", optional = true }
